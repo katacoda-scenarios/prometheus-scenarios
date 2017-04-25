@@ -1,4 +1,4 @@
-Prometheus can run as a Docker Container with a UI available on port _9090_. Prometheus uses the configuration to scrap the targets, collect and store the metrics before making them available via API that allows dashboards, graphing and alerting.
+Prometheus can run as a Docker Container with a UI available on port _9090_. Prometheus uses the configuration to scrape the targets, collect and store the metrics before making them available via API that allows dashboards, graphing and alerting.
 
 ## Task
 

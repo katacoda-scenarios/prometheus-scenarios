@@ -8,7 +8,7 @@ global:
   evaluation_interval: 15s
 </pre>
 
-The second half defines the servers and ports that Prometheus should scrap data from. In this example, we have defined three targets running on different ports.
+The second half defines the servers and ports that Prometheus should scrape data from. In this example, we have defined three targets running on different ports.
 
 <pre class="file" data-filename="prometheus.yml">
 scrape_configs:

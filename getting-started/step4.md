@@ -1,4 +1,4 @@
-With the containers launched, Prometheus will scrap and store the data based on the internals in the configuration.
+With the containers launched, Prometheus will scrape and store the data based on the internals in the configuration.
 
 ## Dashboards
 
