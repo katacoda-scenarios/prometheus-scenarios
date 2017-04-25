@@ -1,8 +1,8 @@
-Prometheus runs as a Docker Container with a UI available on port _9090_. Prometheus uses the configuration to scrap the targets, collect and store the metrics before making them available via API that allows dashboards, graphing and alerting.
+Prometheus runs as a Docker Container with a UI available on port _9090_. Prometheus uses the configuration to scrape the targets, collect and store the metrics before making them available via API that allows dashboards, graphing and alerting.
 
 ## Task
 
-The following command launches the container with the prometheus configuration. Any data created by prometheus will be stored on the host, in the directory /prometheus/data. When we update the container, the data will be persisted.
+The following command launches the container with the Prometheus configuration. Any data created by Prometheus will be stored on the host, in the directory /prometheus/data. When we update the container, the data will be persisted.
 
 ```
 mkdir -p /prometheus/data
