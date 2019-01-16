@@ -9,7 +9,7 @@ docker run -d --net=host \
 
 
 ```
-docker run -d -p 9100:9100 \
+docker run -d \
   -v "/proc:/host/proc" \
   -v "/sys:/host/sys" \
   -v "/:/rootfs" \

@@ -5,7 +5,7 @@ To collect metrics related to a node it's required to run a Prometheus Node Expo
 Launch the Node Exporter container. By mounting the host /proc and /sys directory, the container has accessed to the necessary information to report on.
 
 ```
-docker run -d -p 9100:9100 \
+docker run -d \
   -v "/proc:/host/proc" \
   -v "/sys:/host/sys" \
   -v "/:/rootfs" \
