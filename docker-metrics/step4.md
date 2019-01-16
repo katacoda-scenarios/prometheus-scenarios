@@ -5,7 +5,7 @@ The Docker Metrics endpoint will return information related to Docker. To collec
 Launch the Node Exporter container. By mounting the host /proc and /sys directory, the container has accessed to the necessary information to report on.
 
 ```
-docker run -d -p 9100:9100 \
+docker run -d \
   -v "/proc:/host/proc" \
   -v "/sys:/host/sys" \
   -v "/:/rootfs" \
